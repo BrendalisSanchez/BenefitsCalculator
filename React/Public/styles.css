@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #3cd1d6;
+  background-color: #f5ba13;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -35,7 +35,7 @@ footer {
 footer p {
   color: #ccc;
 }
-.note {
+.employee {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
@@ -44,22 +44,22 @@ footer p {
   margin: 16px;
   float: left;
 }
-.note h1 {
+.employee h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
-.note p {
+.employee p {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-.note button {
+.employee button {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #1ff1e7;
+  color: #f5ba13;
   border: none;
   width: 36px;
   height: 36px;

@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Employee from "./Employee";
-import CreateEmployee from "./CreateEmployee";
+import Employee from "./employees/Employee";
+import CreateEmployee from "./employees/CreateEmployee";
 
 function App() {
   const [employee, setEmployee] = useState([]);
 
   function addEmployee(newEmployee) {
-    setEmployee((prevNotes) => {
-      return [...prevNotes, newEmployee];
+    setEmployee((prevEmployees) => {
+      return [...prevEmployees, newEmployee];
     });
   }
 
   function editEmployee(id) {
-    setEmployee((prevNotes) => {
-      return prevNotes.filter((employeeItem, index) => {
+    setEmployee((prevEmployees) => {
+      return prevEmployees.filter((employeeItem, index) => {
         return index !== id;
       });
     });
